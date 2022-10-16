@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="WhatsApp_icon.png" alt="">
+        <h1 class = "titt">Welcome to Chat app</h1>
+    </nav>
+    <div class="container">
+    </div>
+
+    <div class="mess">
+        <div class="main">
+            
+            <span class="icon" onclick="changeBold()"><i class="uil uil-bold"></i></span>
+            <span class="icon" onclick="changeItalic()"><i class="uil uil-italic"></i></span>
+            <span class="icon"><i class="uil uil-text-strike-through"></i></span>
+            <span class="icon"><i class="uil uil-link"></i></span>
+            <span class="icon"><i class="uil uil-list-ul"></i></span>
+            <span class="icon"><i class="uil uil-list-ol"></i></span>
+            <span class="icon" ><i class='bx bxs-quote-alt-right'></i></span>
+            <span class="icon"><i class='bx bx-cut'></i></span>
+            <span class="icon"><i class="uil uil-brackets-curly"></i></span>
+            <span class="icon"><i class="uil uil-upload-alt"></i></span>
+            <span class="icon"><i class="uil uil-emoji"></i></span>
+            <span class="icon"><i class="uil uil-at"></i></span>
+            
+        </div>
+        <!-- <div class="flex"> -->
+        <div class="send box" >
+        <form action="#" id = "send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            
+        </form>
+        <button class="btn" type="submit" >Send</button>
+        <!-- </div> -->
+    </div>
+    </div>
+</body>
+</html>
